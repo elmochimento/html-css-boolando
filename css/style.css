@@ -39,3 +39,67 @@ ul {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+a{
+    color: white
+}
+
+
+/* Sezione .top-header */
+
+.top-header {
+    height: 80px;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between; /* Distribuisce gli elementi */
+    align-items: center; /* Allinea verticalmente */
+    padding: 10px 20px;
+}
+
+
+.category-person{
+    /* background-color: rgb(185, 183, 24); */
+    padding: 7px
+}
+
+.logo{
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 70px;
+    
+}
+
+.logo-boolean{
+    width: 170px;
+    max-width: 100%; /* Evita che l'immagine superi i limiti */
+}
+
+.right-icons{
+    color: white;
+}
+
+/* Sezione main  */
+
+.relaxed-fit{
+    margin-top: 50px;
+    width: 280px;
+
+}
+
+.rosess-tee{
+    margin-top: 50px;
+    width: 280px;
+}
+
+.pastello{
+    margin-top: 50px;
+    width: 280px;
+}
+
+.primary-section{
+    display: flex; /* Attiva Flexbox */
+    justify-content: center; /* Allinea le immagini orizzontalmente al centro */
+    gap: 20px; /* Distanza tra le immagini */
+}
