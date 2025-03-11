@@ -64,6 +64,9 @@ a{
     padding-bottom: 10px;
 }
 
+a{
+    padding-bottom: 10px
+}
 
 .logo{
     display: flex;
@@ -88,6 +91,14 @@ a{
     margin-top: 50px;
     width: 280px;
 
+}
+
+.price-red{
+    color: red;
+}
+
+.price-line-through{
+    text-decoration: line-through;
 }
 
 .rosess-tee{
@@ -131,4 +142,5 @@ footer{
 .footer-section-one, .footer-section-two{
     padding: 20px 10px;
     
+   
 }
