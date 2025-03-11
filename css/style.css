@@ -45,6 +45,10 @@ a{
     color: white
 }
 
+img{
+    position: relative;
+}
+
 
 /* Sezione .top-header */
 
@@ -87,12 +91,6 @@ a{
 
 /* Sezione main  */
 
-.relaxed-fit{
-    margin-top: 50px;
-    width: 280px;
-
-}
-
 .price-line-through{
     text-decoration: line-through;
     color: black;
@@ -105,17 +103,13 @@ a{
 .price-line-through{
     text-decoration: line-through;
     color: black;
-    
+
 }
 
-.rosess-tee{
-    margin-top: 50px;
-    width: 280px;
-}
 
-.pastello{
+.card{
     margin-top: 50px;
-    width: 280px;
+    width: 30%;
 }
 
 .primary-section{
@@ -123,15 +117,8 @@ a{
     justify-content: center; /* Allinea le immagini orizzontalmente al centro */
     gap: 20px; /* Distanza tra le immagini */
     margin-top: 20px;
-}
-
-
-.secondary-section{
-    display: flex; /* Attiva Flexbox */
-    justify-content: center; /* Allinea le immagini orizzontalmente al centro */
-    gap: 20px; /* Distanza tra le immagini */
-    /* margin-top: 10px; */
-    margin-bottom: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 /* sezione footer */
