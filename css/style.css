@@ -102,4 +102,13 @@ a{
     display: flex; /* Attiva Flexbox */
     justify-content: center; /* Allinea le immagini orizzontalmente al centro */
     gap: 20px; /* Distanza tra le immagini */
+    margin-top: 20px;
+}
+
+
+.secondary-section{
+    display: flex; /* Attiva Flexbox */
+    justify-content: center; /* Allinea le immagini orizzontalmente al centro */
+    gap: 20px; /* Distanza tra le immagini */
+    margin-top: 40px;
 }
